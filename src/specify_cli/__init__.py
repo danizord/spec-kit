@@ -831,6 +831,7 @@ def init(
     elif selected_ai == "codex":
         steps_lines.append(f"{step_num}. Use Codex CLI to work with your project")
         steps_lines.append("   - Run codex \"<prompt>\" to get started")
+        steps_lines.append("   - Codex uses AGENTS.md for project-specific guidance")
     elif selected_ai == "copilot":
         steps_lines.append(f"{step_num}. Open in Visual Studio Code and use [bold cyan]/specify[/], [bold cyan]/plan[/], [bold cyan]/tasks[/] commands with GitHub Copilot")
 

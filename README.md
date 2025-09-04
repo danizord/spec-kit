@@ -155,6 +155,8 @@ The CLI will check if you have Claude Code, Gemini CLI, or Codex CLI installed. 
 specify init <project_name> --ai claude --ignore-agent-tools
 ```
 
+Codex CLI also reads `AGENTS.md` files for project-specific guidance. See the [Codex docs](https://github.com/openai/codex/blob/main/docs/getting-started.md#memory-with-agentsmd) for details.
+
 ### **STEP 1:** Bootstrap the project
 
 Go to the project folder and run your AI agent. In our example, we're using `claude`.
