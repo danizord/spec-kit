@@ -663,7 +663,6 @@ def init(
         specify init my-project --ai copilot --no-git
         specify init --ignore-agent-tools my-project
         specify init --here --ai claude
-        specify init --here --ai codex
         specify init --here
     """
     # Show banner first
